@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# useLocalStorage
+
+This is a react hook that lets you use local storage for your project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available values & methods
+
+### `key`
+
+This is the key to be used for local storage.
+
+### `initialValue`
+
+Value that should be used by default, if this is the first time the key is used.
+
+### `storedValue`
+
+Returned from the hook and holds the current value of the key.
+
+### `setValue`
+
+Method to set the value in local storage.
 
 ## Available Scripts
 
